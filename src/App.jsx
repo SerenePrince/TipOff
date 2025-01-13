@@ -38,7 +38,6 @@ function App() {
         `${player.first_name} ${player.last_name}` === randomPlayerName
     );
     setAnswer(randomPlayer || null);
-    console.log(randomPlayer);
     setLoading(false);
   }, []);
 
